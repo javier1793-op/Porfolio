@@ -22,27 +22,27 @@ const Sidebar = () => {
         <ul className="nav-list-top">
           <li className="nav-item">  
             <img src={Info} alt="info" />
-          <spam>A bit of me</spam> 
+          <span>A bit of me</span> 
           </li>
           
           <li className="nav-item">   
             <img src={Proyect} alt="info" />
-          <spam>My projects</spam> 
+          <span>My projects</span> 
           </li>
           
           <li className="nav-item">   
             <img src={Play} alt="info" />
-          <spam>Something funny</spam> 
+          <span>Something funny</span> 
           </li>
           
           <li className="nav-item">   
             <img src={Cv} alt="info" />
-          <spam>CV</spam> 
+          <span>CV</span> 
           </li>
           
           <li className="nav-item">   
             <img src={Speak} alt="info" />
-          <spam>Let's talk</spam> 
+          <span>Let's talk</span> 
           </li>
          
         </ul>

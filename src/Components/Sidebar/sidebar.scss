@@ -1,54 +1,97 @@
-nav{
-    width: 90px;
-    height: 100%;
-    text-align: center;
-    overflow: hidden;
-    background: rgba(255,255,255, .06);
-    box-shadow: 0 8px 32px rgba(0,0,0, .4);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-right: 1px solid rgba(255, 255, 255, .15);
-    transition: .4s;
+nav {
+  width: 90px;
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  transition: 0.4s;
 }
 
-nav:hover{
-    width: 300px;
+nav:hover {
+  width: 300px;
 }
 
 nav .nav-list-top,
-nav .nav-list-bottom{
-    width: 100%;
-    
+nav .nav-list-bottom {
+  width: 100%;
 }
 
-nav .nav-list-top{
-    top:32%;
+nav .nav-list-top {
+  top: 32%;
 }
 
-nav .nav-list-bottom{
-    bottom: 0;
+nav .nav-list-bottom {
+  bottom: 0;
 }
 
-nav .nav-brand img{
-    width: 50px;
-    border-radius: 50%;
-    background: white;
-    margin-top: 15px;
-    transition: .4s;
+nav .nav-brand img {
+  width: 50px;
+  border-radius: 50%;
+  background: white;
+  margin-top: 15px;
+  transition: 0.4s;
 }
 
-nav:hover .nav-brand img{
-    width: 90px;
-    margin-top: 30px;
+nav:hover .nav-brand img {
+  width: 90px;
+  margin-top: 30px;
 }
 
-nav .nav-brand .info{
-    text-align: center;
+nav .nav-brand .info {
+  text-align: center;
+  pointer-events: none;
+  opacity: 0;
+}
+nav .nav-brand .info h3{
+    color: #95a5a6;
+}
+
+nav:hover .nav-brand .info {
+  opacity: 1;
+  transition: 0.4s;
+  transition-delay: 0.2s;
+}
+nav .nav-brand p {
+  color: #bb8fce;
+  margin-bottom: 8px;
+}
+
+nav .nav-item img{
+    width: 40px;
+    height: 40px;
+    margin: 0 6px;
+    transform: translateY(5px);
+    transition-delay: .4s;
+}
+
+nav .nav-item span {
+    color: #95a5a6;
+    font-size: 18px;
     pointer-events: none;
     opacity: 0;
-    transition: .4s;
+}
+nav:hover .nav-item span {
+    opacity: 1;
+    transition-delay: .2s;
+}
+nav .nav-item:hover span {
+    color:  #2e4053 ;
 }
 
-nav:hover .nav-brand .info{
-    opacity: 1;
+
+nav .nav-item{
+    cursor: pointer;
+    padding: 0 25px;
+   height: 80px;
+   line-height: 80px;
+   text-align: left;
+   transition: .4s;
+}
+nav .nav-item:hover{
+    background:  #e8daef
+    ;
 }
