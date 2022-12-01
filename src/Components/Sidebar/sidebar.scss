@@ -1,0 +1,54 @@
+nav{
+    width: 90px;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    background: rgba(255,255,255, .06);
+    box-shadow: 0 8px 32px rgba(0,0,0, .4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-right: 1px solid rgba(255, 255, 255, .15);
+    transition: .4s;
+}
+
+nav:hover{
+    width: 300px;
+}
+
+nav .nav-list-top,
+nav .nav-list-bottom{
+    width: 100%;
+    
+}
+
+nav .nav-list-top{
+    top:32%;
+}
+
+nav .nav-list-bottom{
+    bottom: 0;
+}
+
+nav .nav-brand img{
+    width: 50px;
+    border-radius: 50%;
+    background: white;
+    margin-top: 15px;
+    transition: .4s;
+}
+
+nav:hover .nav-brand img{
+    width: 90px;
+    margin-top: 30px;
+}
+
+nav .nav-brand .info{
+    text-align: center;
+    pointer-events: none;
+    opacity: 0;
+    transition: .4s;
+}
+
+nav:hover .nav-brand .info{
+    opacity: 1;
+}
