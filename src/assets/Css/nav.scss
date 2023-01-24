@@ -1,0 +1,21 @@
+.nav{
+    margin-top: 150px;
+  }
+.nav li{
+    margin-bottom: 20px;
+    display: block;
+  }
+.nav li a{
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    color: var(--text-black-900);
+    padding: 5px 15px;
+    border-bottom: 1px solid var(--bg-black-50);
+  }
+.nav li a.active{
+    color: var(--skin-color);
+  }
+.nav li a i{
+    margin-right: 15px;
+  }

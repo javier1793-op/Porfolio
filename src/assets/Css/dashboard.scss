@@ -1,0 +1,28 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Convergence&display=swap');
+
+
+:root {
+  --bg-black-900: #f2f2fc;
+  --bg-black-100: #fdf9ff;
+  --bg-black-50: #e8dfec;
+  --text-black-900: #302e4d;
+  --text-black-700: #504e70;
+}
+/*aside*/
+
+
+ul {
+  list-style-type: none;
+}
+/*content*/
+.home-section {
+  background: var(--bg-black-900);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 270px;
+  opacity: 1;
+  z-index: 0;
+  min-height: 100vh;
+}
