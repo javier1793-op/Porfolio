@@ -10,7 +10,7 @@ const Home = () => {
               <div className="row">
                 <div className="home-info padd-15">
                   <h3 className="hello">Hello, my name is <span className="name">Ruíz Díaz Javier</span></h3>
-                  <h3 className="my-profession">I´ m a <span>web designer</span></h3>
+                  <h3 className="my-profession">I´ m a <span>web programmer</span></h3>
                   <p>Studying system engineering - junior frontend programmer - Systems Analyst.</p>
                   <a href="#" className='btn hire-me'>More About Me</a>
                 </div>
