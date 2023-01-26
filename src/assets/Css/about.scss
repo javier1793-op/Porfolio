@@ -284,3 +284,89 @@
     font-weight: 500;
     color: white;
   }
+  .title-skill{
+    margin-top: 40px;
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title-skill h3{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0;
+  }
+  .about-skill{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .about-skill ul{
+    position: relative;
+    display: flex;
+    gap: 50px;
+  }
+  .about-skill ul li{
+    position: relative;
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+ .about-skill ul li:hover{
+  z-index: 10000;
+  transform: scale(0.75);
+ }
+  .about-skill ul li::before{
+    content: '';
+    position: absolute;
+    inset: 30px;
+    box-shadow: 0 0 0 10px var(--skin-color),
+    0 0 0 20px var(--bg-black-900),
+    0 0 0 22px var(--skin-color);
+    transition: 0.5s;
+  }
+ 
+  .about-skill ul li:hover::before{
+    inset: 0px;
+  }
+  .about-skill ul li::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--bg-black-900);
+    transform: rotate(45deg);
+  }
+  .about-skill ul li a i{
+    position: relative;
+    text-decoration: none;
+    z-index: 10;
+    font-size: 2em;
+    transition: 0.5s;
+    color: var(--react-color);
+  }
+  .about-skill ul li:nth-child(2) a i{
+    color: var(--java-color);
+  }
+  .about-skill ul li:nth-child(3) a i{
+    color: var(--html-color);
+  }
+  .about-skill ul li:nth-child(6) a i{
+    color: var(--php-color);
+  }
+  .about-skill ul li:hover a {
+    font-size: 2em;
+    z-index: 20;
+  }
+  
+  

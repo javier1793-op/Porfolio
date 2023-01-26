@@ -24,15 +24,6 @@ const About = () => {
                     <div className="personal-info padd-15">
                       <div className="row">
                         <div className="info-it padd-15">
-                          <p>Birthday : <span>11 March 1993</span></p>
-                        </div>
-                        <div className="info-it padd-15">
-                          <p>Age : <span>29</span></p>
-                        </div>
-                        <div className="info-it padd-15">
-                          <p>Email : <span>javier17utn@gmail.com</span></p>
-                        </div>
-                        <div className="info-it padd-15">
                           <p>Email : <span>javier17utn@gmail.com</span></p>
                         </div>
                         <div className="info-it padd-15">
@@ -42,7 +33,10 @@ const About = () => {
                           <p>City : <span>Resistencia - Chaco - Argentina</span></p>
                         </div>
                         <div className="info-it padd-15">
-                          <p>Study : <span>complete tertiary</span></p>
+                          <p>Qualification : <span>system analyst</span></p>
+                        </div>
+                        <div className="info-it padd-15">
+                          <p>Studying : <span>Systems Engineering</span></p>
                         </div>
                       </div>
                       <div className="row">
@@ -65,6 +59,36 @@ const About = () => {
                           </div>
                         </div>
                       </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                  <div className="title-skill padd-15">
+                        <h3>Skill</h3>
+                      </div>
+                  </div>
+                  <div className="row">
+                    <div className="about-skill padd-15">
+                       <ul>
+                        <li>
+                          <a href="#"><i class="fa-brands fa-react"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa-brands fa-js"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa-brands fa-html5"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa-brands fa-css3-alt"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa-brands fa-wordpress"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa-brands fa-php"></i></a>
+                        </li>
+                       </ul>
+                      
                     </div>
                   </div>
                 </div>

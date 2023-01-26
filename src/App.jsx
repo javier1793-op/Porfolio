@@ -1,5 +1,6 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import Dashboard from "./assets/Page/Dashboard"
+import About from "./assets/Page/About"
 
 function App() {
   
@@ -7,9 +8,10 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Routes>
-            <Route exact path="/" element={<Dashboard/>}/>
-        </Routes>
+          <Routes>
+          <Route index element={<Dashboard />} />
+          <Route path="/about" element={<About />} />
+          </Routes>
       </BrowserRouter>
     </div>
   )

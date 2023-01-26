@@ -32,20 +32,74 @@
     margin-bottom: 70px;
     color: var(--text-black-700);
   }
-  .btn{
-    font-size: 16px;
-    font-weight: 500;
-    padding: 12px 35px;
-    background: var(--skin-color);
-    color: white;
-    border-radius: 40px;
-    display: inline-block;
-    white-space: nowrap;
-    transition: all 0.3s ease;
-    border: none;
+  .button a{
+    position: relative;
+    background:var(--skin-color);
+    color:var(--text-black-900);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
   }
-  .btn:hover{
-    transform: scale(1.05);
+  .button a:hover{
+    letter-spacing: 0.25em;
+    background: var(--skin-color);
+    color: var(--skin-color);
+    box-shadow:  0 0 35px var(--skin-color);
+  }
+  .button a::before{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: var(--bg-black-100);
+    transition: 0.5s all ease;
+  }
+
+  .button a span{
+    position: relative;
+    z-index: 2;
+  }
+  .button a i{
+    position: absolute;
+    inset: 0;
+    display: block;
+  }
+  .button a i::before{
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 100%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background: var(--bg-black-900);
+    border: 2px solid var(--skin-color);
+    transition: 0.5s;
+  }
+  .button a:hover i::before{
+    left: 0%;
+    transform: translateX(-50%) rotate(45deg);
+    box-shadow: 32px 32px var(--skin-color);
+  }
+  .button a i::after{
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background: var(--bg-black-900);
+    border: 2px solid var(--skin-color);
+    transition: 0.5s;
+  }
+  .button a:hover i::after{
+    left: 100%;
+    transform: translateX(-50%) rotate(-45deg);
+    box-shadow: 32px -32px var(--skin-color);
   }
   .home .home-img{
     flex:  0 0 40%;
