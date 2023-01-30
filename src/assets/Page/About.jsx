@@ -70,22 +70,22 @@ const About = () => {
                     <div className="about-skill padd-15">
                        <ul>
                         <li>
-                          <a href="#"><i class="fa-brands fa-react"></i></a>
+                          <a href="#"><i className="fa-brands fa-react"></i></a>
+                        </li>
+                        <li className='java'>
+                          <a href="#"><i className="fa-brands fa-js"></i></a>
+                        </li>
+                        <li className='html'>
+                          <a href="#"><i className="fa-brands fa-html5"></i></a>
                         </li>
                         <li>
-                          <a href="#"><i class="fa-brands fa-js"></i></a>
+                          <a href="#"><i className="fa-brands fa-css3-alt"></i></a>
                         </li>
                         <li>
-                          <a href="#"><i class="fa-brands fa-html5"></i></a>
+                          <a href="#"><i className="fa-brands fa-wordpress"></i></a>
                         </li>
-                        <li>
-                          <a href="#"><i class="fa-brands fa-css3-alt"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa-brands fa-wordpress"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa-brands fa-php"></i></a>
+                        <li className='php'>
+                          <a href="#"><i className="fa-brands fa-php"></i></a>
                         </li>
                        </ul>
                       

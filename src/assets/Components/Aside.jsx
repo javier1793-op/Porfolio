@@ -3,6 +3,7 @@ import './../Css/aside.scss'
 import './../Css/color-1.scss'
 import Logo from './../Img/LOGO.png'
 import Nav from './Nav'
+import './../Css/media.scss'
 
 const Aside = () => {
   return (

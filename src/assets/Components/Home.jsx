@@ -1,6 +1,7 @@
 import React from 'react'
 import './../Css/home.scss'
 import Perfil from "./../Img/perfil.jpg";
+import './../Css/media.scss'
 
 const Home = () => {
   return (

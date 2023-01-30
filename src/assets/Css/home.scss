@@ -9,6 +9,7 @@
     flex: 0 0 60%;
     max-width: 60%;
   }
+
   h3.hello{
     font-size: 28px;
     margin: 15px 0;
@@ -191,3 +192,12 @@
       transform: translateY(-100%);
     }
   }
+  @media(max-width: 991px){
+    .home .home-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+      .home .home-img{
+        display: none;
+      }
+}

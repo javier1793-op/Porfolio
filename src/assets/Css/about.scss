@@ -331,12 +331,38 @@
     content: '';
     position: absolute;
     inset: 30px;
-    box-shadow: 0 0 0 10px var(--skin-color),
+    box-shadow: 0 0 0 10px var(--react-color),
     0 0 0 20px var(--bg-black-900),
-    0 0 0 22px var(--skin-color);
+    0 0 0 22px var(--react-color);
     transition: 0.5s;
   }
- 
+  .about-skill ul .java::before{
+    content: '';
+    position: absolute;
+    inset: 30px;
+    box-shadow: 0 0 0 10px var(--java-color),
+    0 0 0 20px var(--bg-black-900),
+    0 0 0 22px var(--java-color);
+    transition: 0.5s;
+  }
+  .about-skill ul .html::before{
+    content: '';
+    position: absolute;
+    inset: 30px;
+    box-shadow: 0 0 0 10px var(--html-color),
+    0 0 0 20px var(--bg-black-900),
+    0 0 0 22px var(--html-color);
+    transition: 0.5s;
+  }
+  .about-skill ul .php::before{
+    content: '';
+    position: absolute;
+    inset: 30px;
+    box-shadow: 0 0 0 10px var(--php-color),
+    0 0 0 20px var(--bg-black-900),
+    0 0 0 22px var(--php-color);
+    transition: 0.5s;
+  }
   .about-skill ul li:hover::before{
     inset: 0px;
   }
@@ -358,6 +384,7 @@
   .about-skill ul li:nth-child(2) a i{
     color: var(--java-color);
   }
+  
   .about-skill ul li:nth-child(3) a i{
     color: var(--html-color);
   }
@@ -368,5 +395,27 @@
     font-size: 2em;
     z-index: 20;
   }
-  
-  
+
+  @media(max-width: 991px){
+    .about .about-content .personal-info{
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .about .about-content .personal-info .info-it{
+      flex:  0 0 100%;
+      max-width: 100%;
+    }
+    .about .about-content .photo{
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+    }
+    .about-skill{
+      display: none;
+    }
+    .title-skill{
+      display: none;
+    }
+  }

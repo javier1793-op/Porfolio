@@ -4,7 +4,7 @@ import "./../Css/color-1.scss";
 import Aside from "../Components/Aside";
 import Home from "../Components/Home";
 import About from "./About";
-
+import './../Css/media.scss'
 
 const Dashboard = () => {
   return (
