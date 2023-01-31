@@ -1,0 +1,55 @@
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0% 5%;
+}
+.icons .icon{
+    cursor: pointer;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+    transition: .3s ease-out;
+}
+.icons .icon:hover{
+    scale: 1.15;
+}
+.icons .icon .bg{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: -10px;
+    right: -10px;
+    border-radius: 18px;
+    transform: rotate(14deg);
+    transition: .3s ease-out;
+}
+.icons .icon:hover .bg{
+    transform: rotate(24deg);
+}
+.icons .icon:nth-child(1) .bg{
+    background:  #273746 ;
+}
+.icons .icon:nth-child(2) .bg{
+    background:   #2ecc71  ;
+}
+.icons .icon  .glass{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    backdrop-filter: blur(15px);
+    background: rgba(255,255,255, .2);
+    border: 2px solid rgba(255,255,255, .2);
+    border-radius: 18px;
+}
+.icons .icon i{
+    font-size: 36px;
+    background: linear-gradient(
+        45deg,
+        rgba(255,255,255, 1),
+        rgba(255,255,255, .3)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

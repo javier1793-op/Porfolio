@@ -1,0 +1,15 @@
+.content-project{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+@media (max-width:420px){
+    .content-project{
+        justify-content: center;
+        padding: auto;
+        align-items: stretch;
+    }
+}
