@@ -8,31 +8,29 @@ import MountainsB from "./../Img/game/mountains_behind.png";
 
 const Game = () => {
 
-  const start1 = useRef();
-  const moon1 = useRef();
-  const mountainsb = useRef();
-  const text = useRef();
+ const start1= useRef()
+ const moon= useRef()
+ const mountainsb=useRef()
+ 
 
-  useEffect(() => {
-    window.addEventListener('scroll',(e)=>{
-      let value= window.scrollY;
+ useEffect(()=>{
+ window.addEventListener('scroll',(e)=>{
+    let value= window.scrollY;
+    start1.current.style.left = value * 0.25 + 'px';
+    moon.current.style.top= value * 1.05 + 'px';
+    mountainsb.current.style.top = value * 0.5 + 'px'
+ })
+   
+ },[])
 
-      start1.current.style.left= value * 0.25 + 'px';
-      moon1.current.style.top= value * 1.05 + 'px';
-      mountainsb.current.style.top = value * 0.5 + 'px'
-      text.current.style.marginRight = value * 3 + 'PX';
-     })
-  }, []);
 
   return (
     <div className="game">
       <section className="bg">
         <img src={Start} alt="bg-start" ref={start1} />
-        <img src={Moon} alt="bg-moon" ref={moon1} id='moon' />
+        <img src={Moon} alt="bg-moon"  id='moon' ref={moon} />
         <img src={MountainsB} alt="bg-b" ref={mountainsb} />
-        <h2 className="text" ref={text}>
-          Luck
-        </h2>
+        
         <button className="play" id="btn">
           Play
         </button>
