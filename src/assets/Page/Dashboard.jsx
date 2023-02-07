@@ -6,6 +6,7 @@ import Home from "../Components/Home";
 import About from "./About";
 import './../Css/media.scss'
 import Projetc from "./Projetc";
+import Game from "./Game";
 
 const Dashboard = () => {
   return (
@@ -13,7 +14,7 @@ const Dashboard = () => {
       <div className="main-container">
           <Aside />
         <div className="main-content">
-          <Projetc/>
+          <Game/>
         </div>
       </div>
     </>
