@@ -7,6 +7,7 @@ import About from "./About";
 import "./../Css/media.scss";
 import Projetc from "./Projetc";
 import Game from "./Game";
+import { Outlet } from "react-router";
 
 const Dashboard = () => {
   const [dark, setDark] = useState(false);
@@ -27,7 +28,8 @@ const Dashboard = () => {
       <div className={darkcambio}>
         <Aside addDark={addDark} />
         <div className="main-content">
-          <Home />
+          <Home/>
+          <Outlet></Outlet>
         </div>
       </div>
     </>

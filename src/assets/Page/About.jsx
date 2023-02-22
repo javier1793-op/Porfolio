@@ -2,6 +2,7 @@ import React from 'react'
 import Perfilminiatura from './../Img/perfil-miniatura.jpg'
 import './../Css/about.scss'
 
+
 const About = () => {
   return (
     <>
