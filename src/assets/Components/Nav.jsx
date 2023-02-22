@@ -8,15 +8,15 @@ const Nav = () => {
   return (
     <>
         <ul className="nav">
-            <li><a href="#" className='active'><i className="fa-solid fa-laptop"></i>
+            <li><Link to='/' className='active'><i className="fa-solid fa-laptop"></i>
               Home
-            </a></li>
-            <li><a href="#"><i className="fa-solid fa-person-through-window"></i>
+            </Link></li>
+            <li><Link to='/about'><i className="fa-solid fa-person-through-window"></i>
               A bit of me
-            </a></li>
-            <li><a href="#"><i className="fa-solid fa-oil-well"></i>My projects</a></li>
-            <li><a href="#"><i className="fa-solid fa-shield-dog"></i>Games</a></li>
-            <li><a href="#"><i className="fa-solid fa-headset"></i>Contact</a></li>
+            </Link></li>
+            <li><Link to='/projects'><i className="fa-solid fa-oil-well"></i>My projects</Link></li>
+            <li><Link to='/game'><i className="fa-solid fa-shield-dog"></i>Games</Link></li>
+            <li><Link to='/contact'><i className="fa-solid fa-headset"></i>Contact</Link></li>
           </ul>
     </>
   )

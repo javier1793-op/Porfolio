@@ -104,3 +104,60 @@
     top: 6px;
     left: 0;
  }
+ .aside .menu-button{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
+  align-items: center;
+ }
+ .aside .menu-button .check{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+ }
+ .aside .menu-button .check span{
+  font-family: 'Clicker Script',cursive;
+  font-size: 30px;
+  font-weight: 700;
+  color: #9c640c;
+ }
+ .aside .menu-button .check label{
+  position: relative;
+  width: 100px;
+  height: 50px;
+  background: #3e3e3e;
+  box-shadow:  0 0 0 6px #303030;
+  border-radius: 75px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .check label input{
+  appearance: none ;
+ }
+ .check label span{
+  position: absolute;
+  left:0;
+  width: 95px;
+  height: 50px;
+  background: url(./../Img/Coffee_01.png);
+  background-size: auto 50px;
+  background-repeat:no-repeat;
+  transition: 1.5s;
+  transform: rotate(-180deg);
+  transform-origin: 25px;
+ }
+ .check label input:checked ~ span{
+  left: 50px;
+  background: url(./../Img/Coffee_02.png);
+  background-size: auto 50px;
+  background-repeat: no-repeat;
+  transform: rotate(360deg);
+ }
+ .check label text{
+  font-size: 12px;
+  color: #fff;
+ }

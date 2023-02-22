@@ -38,43 +38,17 @@ const Game = () => {
       </section>
       <section className="sec">
         <h2>Select a game</h2>
-        <p>aca el juego</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-          quibusdam, temporibus obcaecati, ratione est fuga eligendi aut debitis
-          doloribus nisi error. Veniam exercitationem beatae dolores ad
-          perspiciatis eveniet obcaecati quia.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-          quibusdam, temporibus obcaecati, ratione est fuga eligendi aut debitis
-          doloribus nisi error. Veniam exercitationem beatae dolores ad
-          perspiciatis eveniet obcaecati quia.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-          quibusdam, temporibus obcaecati, ratione est fuga eligendi aut debitis
-          doloribus nisi error. Veniam exercitationem beatae dolores ad
-          perspiciatis eveniet obcaecati quia.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-          quibusdam, temporibus obcaecati, ratione est fuga eligendi aut debitis
-          doloribus nisi error. Veniam exercitationem beatae dolores ad
-          perspiciatis eveniet obcaecati quia.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-          quibusdam, temporibus obcaecati, ratione est fuga eligendi aut debitis
-          doloribus nisi error. Veniam exercitationem beatae dolores ad
-          perspiciatis eveniet obcaecati quia.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-          quibusdam, temporibus obcaecati, ratione est fuga eligendi aut debitis
-          doloribus nisi error. Veniam exercitationem beatae dolores ad
-          perspiciatis eveniet obcaecati quia.
-        </p>
+          <div className="slider-container">
+            <div className="slider-content">
+              <div className="slider-items">
+                <div className="slider-item">
+                  <img src="https://picsum.photos/seed/picsum/250/180" alt="img_game_1" />
+                </div>
+                <div className="slider-item"></div>
+                <div className="slider-item"></div>
+              </div>
+            </div>
+          </div>
       </section>
     </div>
   );

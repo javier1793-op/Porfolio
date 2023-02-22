@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './../Css/aside.scss'
 import './../Css/color-1.scss'
 import Logo from './../Img/LOGO.png'
 import Nav from './Nav'
 import './../Css/media.scss'
 
-const Aside = () => {
+const Aside = ({addDark}) => {
+ 
+    
+  
+
   return (
     <>
         <div className="aside">
@@ -16,7 +20,21 @@ const Aside = () => {
           <div className="nav-toggler">
             <span></span>
           </div>
+          <div className='menu-button'>
             <Nav/>
+            <div className="check">
+              <label >
+                <input type="checkbox"
+                  onChange={addDark}
+                />
+                <span></span>
+                <text>black</text> 
+                <text>white</text> 
+              </label>
+            <span>coffee</span>
+            </div>
+            
+          </div>
         </div>
     </>
   )

@@ -75,6 +75,17 @@
     color: #fff;
     padding: 0 70px;
 }
+.sec .slider-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+}
+.sec .slider-container .slider-content{
+  width: 250px;
+  height: 180px;
+  perspective: 1000px;
+}
 
 @media (max-width:1220px){
     .game{
