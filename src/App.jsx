@@ -4,6 +4,7 @@ import About from "./assets/Page/About";
 import Projetc from "./assets/Page/Projetc";
 import Game from "./assets/Page/Game";
 import Home from "./assets/Components/Home";
+import Card from "./assets/Components/Card";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/project" element={<Projetc />} />
           <Route path="/game" element={<Game />} />
           <Route path="/contact" element={<About />} />
+          <Route path="/card" element={<Card />} />
         </Route>
       </Routes>
     </div>

@@ -21,7 +21,7 @@ const Nav = () => {
             <li><Link to='/about'><i className="fa-solid fa-person-through-window"></i>
               A bit of me
             </Link></li>
-            <li><Link to='/projects'><i className="fa-solid fa-oil-well"></i>My projects</Link></li>
+            <li><Link to='/project'><i className="fa-solid fa-oil-well"></i>My projects</Link></li>
             <li><Link to='/game'><i className="fa-solid fa-shield-dog"></i>Games</Link></li>
             <li><Link to='/contact'><i className="fa-solid fa-headset"></i>Contact</Link></li>
           </ul>

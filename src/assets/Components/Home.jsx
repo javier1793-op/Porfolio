@@ -9,8 +9,8 @@ const Home = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["web programmer"], 
-      startDelay: 300,
+      strings: ["web programmer","Main teemo"], 
+      endDelay: 300,
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 100,
@@ -30,7 +30,7 @@ const Home = () => {
               <div className="row">
                 <div className="home-info padd-15">
                   <h3 className="hello">Hello, my name is <span className="name">Ruíz Díaz Javier</span></h3>
-                  <h3 className="my-profession">I´ m a <span ref={el}>web programmer</span></h3>
+                  <h3 className="my-profession">I´ m a <span ref={el}></span></h3>
                   <p>Studying system engineering - junior frontend programmer - Systems Analyst.</p>
                   
                     <div className="button padd-15">

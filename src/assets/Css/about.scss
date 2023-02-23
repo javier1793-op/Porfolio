@@ -90,9 +90,7 @@
     background: var(--bg-black-100);
     transition: 0.5s all ease;
   }
-  .about .about-content .personal-info .button:hover a::before{
-    background: var(--text-black-700);
-  }
+
   .about .about-content .personal-info .button a span{
     position: relative;
     z-index: 2;
