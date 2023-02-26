@@ -1,5 +1,6 @@
 import React from 'react'
 import './../Css/card.scss'
+import Foto from './../Img/perfil-miniatura.jpg'
 
 const Card = () => {
   return (
@@ -8,7 +9,11 @@ const Card = () => {
           <div className="about section">
             <div className="container ">
               <div className="row">
-                aca el card
+               <div className="gallery">
+                <div className="project-img">
+                  <img src={Foto} alt="" />
+                </div>
+               </div>
               </div>
             </div>
         </div>
