@@ -5,6 +5,7 @@ import Projetc from "./assets/Page/Projetc";
 import Game from "./assets/Page/Game";
 import Home from "./assets/Components/Home";
 import Card from "./assets/Components/Card";
+import Contact from "./assets/Page/Contact";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/project" element={<Projetc />} />
           <Route path="/game" element={<Game />} />
-          <Route path="/contact" element={<About />} />
+          <Route path="/contact" element={<Contact/>} />
           <Route path="/card" element={<Card />} />
         </Route>
       </Routes>
