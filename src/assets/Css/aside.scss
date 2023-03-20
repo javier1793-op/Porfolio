@@ -143,7 +143,7 @@
   left:0;
   width: 95px;
   height: 50px;
-  background: url(./../Img/Coffee_01.png);
+  background: url(./../Img/Coffee_02.png);
   background-size: auto 50px;
   background-repeat:no-repeat;
   transition: 1.5s;
@@ -152,10 +152,12 @@
  }
  .check label input:checked ~ span{
   left: 50px;
-  background: url(./../Img/Coffee_02.png);
+  background: url(./../Img/Coffee_01.png);
   background-size: auto 50px;
   background-repeat: no-repeat;
   transform: rotate(360deg);
+
+  
  }
  .check label text{
   font-size: 12px;

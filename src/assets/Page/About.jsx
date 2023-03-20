@@ -85,9 +85,7 @@ const About = () => {
                         <li>
                           <a href="#"><i className="fa-brands fa-wordpress"></i></a>
                         </li>
-                        <li className='php'>
-                          <a href="#"><i className="fa-brands fa-php"></i></a>
-                        </li>
+                        
                        </ul>
                       
                     </div>

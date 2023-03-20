@@ -12,11 +12,11 @@ import { Outlet } from "react-router";
 const Dashboard = () => {
   const [dark, setDark] = useState(false);
 
-  let darkcambio = "main-container";
+  let darkcambio = "main-container dark";
   if (dark) {
-    darkcambio += " dark";
+    darkcambio += "main-container";
   } else {
-    darkcambio = "main-container";
+    darkcambio = "main-container dark";
   }
 
   const addDark = () => {
