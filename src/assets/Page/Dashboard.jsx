@@ -4,7 +4,6 @@ import "./../Css/color-1.scss";
 import Aside from "../Components/Aside";
 import Home from "../Components/Home";
 import About from "./About";
-import "./../Css/media.scss";
 import Projetc from "./Projetc";
 import Game from "./Game";
 import { Outlet } from "react-router";
@@ -26,7 +25,7 @@ const Dashboard = () => {
   return (
     <>
       <div className={darkcambio}>
-        <Aside addDark={addDark} />
+        <Aside addDark={addDark}  />
         <div className="main-content">
           <Home/>
           <Outlet></Outlet>

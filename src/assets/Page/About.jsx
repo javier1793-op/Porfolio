@@ -1,5 +1,5 @@
 import React from 'react'
-import Perfilminiatura from './../Img/perfil-miniatura.jpg'
+import Perfilminiatura from './../Img/perfil-miniatura.jpeg'
 import './../Css/about.scss'
 
 
@@ -18,7 +18,7 @@ const About = () => {
                   <div className="row">
                     <div className="about-text padd-15">
                       <h3>I´m Ruíz Díaz Javier <span>web developer</span></h3>
-                      <p>I consider myself a responsible, dynamic and above all creative person with ease of adaptation and ability to work as a team. One of my objectives is to put into practice all my knowledge acquired during my professional training to provide the best solutions to the activities assigned to me. My aspiration as a professional level is to fully develop myself in the assigned tasks, continuing with my professional development as a future Systems Engineer and learning new tools to stay at the forefront of web development tools on the market.</p>
+                      <p>I consider myself a responsible, dynamic and creative person, with ease of adaptation and ability to work in a team. You want to apply my knowledge to provide optimal solutions to your assigned activities and my goal is to develop as a system engineer and stay up to date on web development tools.</p>
                     </div>
                   </div>
                   <div className="row">

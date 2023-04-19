@@ -1,4 +1,4 @@
-import React, { useEffect, useRef,useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import "./../Css/game.scss";
 import "./../Css/color-1.scss";
@@ -14,8 +14,7 @@ import PoroPlay from "./../Img/game/poroplay.png";
 import Poro from "../Components/Poro";
 
 const Game = () => {
-
-  const [active, setActive] = useState(null)
+  const [active, setActive] = useState(null);
   const start1 = useRef();
   const moon = useRef();
   const mountainsb = useRef();
@@ -30,8 +29,21 @@ const Game = () => {
   }, []);
 
   const playModal = (gameselect) => {
-   
-    setActive(gameselect)
+    setActive(gameselect);
+
+    let direction
+    switch (gameselect) {
+      case 'game1':
+        direction='https://javier1793-op.github.io/minecraft-clone/'
+        break;
+      case 'game2':
+        direction='https://javier1793-op.github.io/Tictactoe/'
+        break;
+      case 'game3':
+        direction='https://javier1793-op.github.io/Dices/'
+        break;
+    
+    }
 
     Swal.fire({
       imageUrl:
@@ -44,7 +56,7 @@ const Game = () => {
       confirmButtonText: "Go for it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        location.href = "#";
+        location.href = direction;
       }
     });
   };
@@ -76,27 +88,32 @@ const Game = () => {
         <h2>Select a game</h2>
         <div className="container-selector" id="selector">
           <div className="icon">
-          <div className={`imgBox ${active == 'game1'? 'active':''}`}
-            onClick={()=>{playModal('game1')}}
+            <div
+              className={`imgBox ${active == "game1" ? "active" : ""}`}
+              onClick={() => {
+                playModal("game1");
+              }}
             >
               <img src={Menji} alt="img_game_1" id="juego1" />
             </div>
-            <div className={`imgBox ${active == 'game2'? 'active':''}`}
-            onClick={()=>{playModal('game2')}}
-            > 
-              <img
-                src={Tictac}
-                alt="img_game_1"
-                id="juego2"
-              />
+            <div
+              className={`imgBox ${active == "game2" ? "active" : ""}`}
+              onClick={() => {
+                playModal("game2");
+              }}
+            >
+              <img src={Tictac} alt="img_game_1" id="juego2" />
             </div>
-            <div className={`imgBox ${active == 'game3'? 'active':''}`}
-            onClick={()=>{playModal('game3')}}
+            <div
+              className={`imgBox ${active == "game3" ? "active" : ""}`}
+              onClick={() => {
+                playModal("game3");
+              }}
             >
               <img src={Dados} alt="img_game_1" id="juego3" />
             </div>
           </div>
-          <Poro/>
+          <Poro />
         </div>
         <div className="porito"></div>
       </section>
