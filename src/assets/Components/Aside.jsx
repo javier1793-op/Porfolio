@@ -34,7 +34,7 @@ const Aside = ({addDark, burger}) => {
         <div className={`aside ${active? 'active':''}`}>
           <div className="logo">
             <img src={Logo} alt="img" />
-            <a href="#"><span>K</span>oppo</a>
+            <a href="https://javier1793-op.github.io/Porfolio/"><span>K</span>oppo</a>
           </div>
           <div className="nav-toggler">
             <span></span>

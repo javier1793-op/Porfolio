@@ -36,7 +36,7 @@ const Home = () => {
                   <p>Studying system engineering - junior frontend programmer - Systems Analyst.</p>
                   
                     <div className="button padd-15">
-                    <Link to='/about'className='a'>
+                    <Link to='Porfolio/about'className='a'>
                       <span>More About Me</span><i></i>
                       </Link> 
                     </div>
