@@ -16,7 +16,7 @@ const handleClick=()=>{
         <ul className="nav">
             <li
               onClick={handleClick}
-            ><Link to='/home' 
+            ><Link to='Porfolio/home' 
             className='active'
   
             ><i className="fa-solid fa-laptop"></i>
@@ -24,18 +24,18 @@ const handleClick=()=>{
             </Link></li>
             <li
               onClick={handleClick}
-              ><Link to='/about'><i className="fa-solid fa-person-through-window"></i>
+              ><Link to='Porfolio/about'><i className="fa-solid fa-person-through-window"></i>
               A bit of me
             </Link></li>
             <li
               onClick={handleClick}
-              ><Link to='/project'><i className="fa-solid fa-oil-well"></i>My projects</Link></li>
+              ><Link to='Porfolio/project'><i className="fa-solid fa-oil-well"></i>My projects</Link></li>
             <li
               onClick={handleClick}
-              ><Link to='/game'><i className="fa-solid fa-shield-dog"></i>Games</Link></li>
+              ><Link to='Porfolio/game'><i className="fa-solid fa-shield-dog"></i>Games</Link></li>
             <li
               onClick={handleClick}
-              ><Link to='/contact'><i className="fa-solid fa-headset"></i>Contact</Link></li>
+              ><Link to='Porfolio/contact'><i className="fa-solid fa-headset"></i>Contact</Link></li>
           </ul>
     </>
   )
