@@ -9,6 +9,7 @@ import Qr from '../Img/project/Challenger/qrsr.png'
 import HomePage from '../Img/project/Challenger/homepage.png'
 import Summary from '../Img/project/Challenger/summary.png'
 import Things from '../Img/project/project/things.png'
+import weather from '../Img/project/project/weather.png'
 
 const Projetc = () => {
   return (
@@ -20,6 +21,7 @@ const Projetc = () => {
               <h2>Projects</h2>
               <div className="gallery">
               <Miniature git='https://github.com/javier1793-op/things.git' page='https://javier1793-op.github.io/things/' img={Things}/>
+              <Miniature git='https://github.com/javier1793-op/weather.git' page='https://javier1793-op.github.io/weather/' img={weather}/>
               </div>
             </div>
           </div>
