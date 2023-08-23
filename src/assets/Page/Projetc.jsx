@@ -10,6 +10,8 @@ import HomePage from '../Img/project/Challenger/homepage.png'
 import Summary from '../Img/project/Challenger/summary.png'
 import Things from '../Img/project/project/things.png'
 import weather from '../Img/project/project/weather.png'
+import Anime from '../Img/project/project/Anime.png'
+import Serendipia from '../Img/project/project/serendipia.png'
 
 const Projetc = () => {
   return (
@@ -20,6 +22,8 @@ const Projetc = () => {
             <div className="section-title padd-15">
               <h2>Projects</h2>
               <div className="gallery">
+              <Miniature git='https://github.com/javier1793-op/diaryPersonal.git' page='https://javier1793-op.github.io/diaryPersonal/' img={Serendipia}/>
+              <Miniature git='https://github.com/javier1793-op/anime.git' page='https://javier1793-op.github.io/anime/' img={Anime}/>
               <Miniature git='https://github.com/javier1793-op/things.git' page='https://javier1793-op.github.io/things/' img={Things}/>
               <Miniature git='https://github.com/javier1793-op/weather.git' page='https://javier1793-op.github.io/weather/' img={weather}/>
               </div>
